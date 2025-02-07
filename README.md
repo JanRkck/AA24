@@ -13,16 +13,16 @@ This project was carried out as part of the Master's program in Analytics and Ap
 
 ## Objectives
 ### 1. Data Preparation
-- Loading and cleaning datasets
 - Handling missing and erroneous data
+- Cleaning the data for later usage
 
 ### 2. Descriptive Analytics
-- **Temporal Patterns**: Analyze charging behavior over the day, week, and across seasons
+- **Temporal Patterns**: Analyze number of charging events over the day, week, and across seasons
 - **Key Performance Indicators (KPIs)**: Define and visualize three key time-dependent KPIs
-- **Site Characteristics**: Identify differences between public and private charging stations
+- **Site Characteristics**: Identify differences between a public and a private charging site
 
 ### 3. Cluster Analysis
-- Create clusters to identify typical charging events
+- Use clustering to identify charging events
 - Interpret and name the clusters
 
 ### 4. Utilization Prediction
@@ -31,16 +31,18 @@ This project was carried out as part of the Master's program in Analytics and Ap
 - Develop a business case based on the findings
 
 ## Data Description
-The dataset includes charging session information from two locations (public and private), along with supplementary weather data. A detailed description of the dataset fields can be found in the project documentation.
+The dataset includes charging session information from two charing sites (public and private), along with supplementary weather data. A detailed description of the dataset fields can be found in the project documentation.
 
 ## Results and Insights
 The results include:
-- Descriptive analyses of charging behavior.
-- KPIs for monitoring charging infrastructure.
-- Clusters for typical charging events.
-- Predictive models for utilization.
+- Data Preparation according to the lecture
+- Descriptive analyses of charging behavior and sites
+- 3 KPIs for monitoring charging infrastructure (Utilization Rate, Avg. Charging Duration, Energy Delivered)
+- Clusters for typical charging events (Overnight, Standard, High-Usage, Faulty, Longt-Term Parking)
+- Predictive models for utilization (LSTM and ARIMAX)
 
 ## Project Structure
+The project is organized using standardized naming conventions. We created separate notebooks for different tasks and purposes:
 ```
 📂 AA24/
 ├── 📁 data/                
@@ -57,7 +59,7 @@ The results include:
 
 
 ## Authors
-This project was conducted by a team of Master's students:
+This project was carried out by a team of Master's students:
 - Peng Zhang
 - Xiaofeng Lang
 - Mira Mauerer
