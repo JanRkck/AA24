@@ -1,5 +1,13 @@
 # AA2024_Groupwork - TheDoubleATeam
 
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Objectives](#objectives)
+3. [Data Description](#data-description)
+4. [Results and Insights](#results-and-insights)
+5. [Project Structure](#project-structure)
+6. [Authors](#authors)
+
 ## Project Overview
 This project was carried out as part of the Master's program in Analytics and Applications at the University of Cologne. Its goal is to offer data-driven insights into the functioning of electric vehicle (EV) charging hubs and to create utilization forecasts. The project follows the CRISP-DM methodology, encompassing data preparation, descriptive analysis, cluster analysis, and the development of predictive models.
 
